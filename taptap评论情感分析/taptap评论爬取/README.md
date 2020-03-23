@@ -37,8 +37,7 @@
  <br/>
  
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200323110543653.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTE5MDkwNzc=,size_16,color_FFFFFF,t_70)
- <br/>
+ <hr>
 
 ### 其他可能出现的问题
-请联系我，Fiddler配置的坑比较多，要具体情况具体分析 <br/>
-感谢阅读，Thanks for reading!
+请联系我，Fiddler配置的坑比较多，要具体情况具体分析。感谢阅读，Thanks for reading!
