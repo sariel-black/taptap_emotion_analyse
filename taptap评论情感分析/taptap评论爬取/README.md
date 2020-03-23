@@ -40,5 +40,5 @@
  <br/>
 
 ### 其他可能出现的问题
-请联系我，主要是Fiddler配置坑比较多，要具体情况具体分析 <br/>
-感谢阅读！Thanks for reading!
+请联系我，Fiddler配置的坑比较多，要具体情况具体分析 <br/>
+感谢阅读，Thanks for reading!
