@@ -1,10 +1,10 @@
 ## TapTap爬虫的简要说明
-
+ <br/>
 
 ### 运行环境
 请在python环境下运行，这个程序的开发环境为python 3.7.1
-<hr>
 
+ <br/>
 ### 	基本功能
 这个程序根据你提供的游戏id，按评论最近更新时间，自动抓取每条完整的游戏评论和它的关联信息，存放到csv文件中。
 
@@ -22,7 +22,7 @@
 | 69792 | 异化之地 |
 
 上面没有你想爬的游戏? 请看下一条
-<hr>
+ <br/>
 
 ### 获取游戏id的方法——Fiddler抓包
 &emsp;&emsp;Fiddler是一个http协议调试代理工具，简单来说，它充当中间人捕获你正在浏览的网页交换的数据流。它抓包app需要一些额外配置，可以参考[这篇文章](https://blog.csdn.net/xyz846/article/details/78963245)。
@@ -35,7 +35,7 @@
  - 找到下面这条连接，得到游戏id
  <br/>
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200323110543653.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTE5MDkwNzc=,size_16,color_FFFFFF,t_70)
-<hr>
+ <br/>
 
 ### 其他可能出现的问题
 请联系我，主要是Fiddler配置坑比较多，要具体情况具体分析 <br/>
