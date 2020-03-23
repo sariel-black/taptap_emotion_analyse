@@ -32,7 +32,8 @@
  - 用手机进入TapTap的任一游戏的玩家评论区
  - 设置显示方式为最新
  - 下拉屏幕
- - 找到下面这条连接，得到游戏id<br/>
+ - 找到下面这条连接，得到游戏id
+ <br/>
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200323110543653.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTE5MDkwNzc=,size_16,color_FFFFFF,t_70)
 <hr>
 
