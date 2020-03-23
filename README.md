@@ -181,6 +181,7 @@ EmotionModel(
 
 在GPU模式下训练模型，迭代50步的**学习曲线**：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200323191636731.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTE5MDkwNzc=,size_16,color_FFFFFF,t_70)
+<br/>
 测试准确率比ver.1有明显提高，由于我们更关注负类准度，再查看其他评价指标。
 
  #### 召回率
