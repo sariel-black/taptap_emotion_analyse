@@ -40,4 +40,4 @@
  <hr>
 
 ### 其他可能出现的问题
-请联系我，Fiddler配置的坑比较多，要具体情况具体分析。感谢阅读，Thanks for reading!
+Fiddler配置的坑比较多，需要具体情况具体分析，可以留言联系。感谢阅读，Thanks for reading!
