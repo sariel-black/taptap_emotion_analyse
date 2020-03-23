@@ -5,6 +5,7 @@
 请在python环境下运行，这个程序的开发环境为python 3.7.1
 
  <br/>
+ 
 ### 	基本功能
 这个程序根据你提供的游戏id，按评论最近更新时间，自动抓取每条完整的游戏评论和它的关联信息，存放到csv文件中。
 
@@ -34,6 +35,7 @@
  - 下拉屏幕
  - 找到下面这条连接，得到游戏id
  <br/>
+ 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200323110543653.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTE5MDkwNzc=,size_16,color_FFFFFF,t_70)
  <br/>
 
