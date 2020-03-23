@@ -1,42 +1,42 @@
-## TapTapÅÀ³æµÄ¼òÒªËµÃ÷
+## TapTapçˆ¬è™«çš„ç®€è¦è¯´æ˜Ž
 
 
 <hr>
 
-## ÔËÐÐ»·¾³
-ÇëÔÚpython»·¾³ÏÂÔËÐÐ£¬Õâ¸ö³ÌÐòµÄ¿ª·¢»·¾³Îªpython 3.7.1
+## è¿è¡ŒçŽ¯å¢ƒ
+è¯·åœ¨pythonçŽ¯å¢ƒä¸‹è¿è¡Œï¼Œè¿™ä¸ªç¨‹åºçš„å¼€å‘çŽ¯å¢ƒä¸ºpython 3.7.1
 <hr>
 
-## 	»ù±¾¹¦ÄÜ
-&emsp;&emsp;Õâ¸ö³ÌÐò¸ù¾ÝÄãÌá¹©µÄÓÎÏ·id£¬°´ÆÀÂÛ×î½ü¸üÐÂÊ±¼ä£¬×Ô¶¯×¥È¡Ã¿ÌõÍêÕûµÄÓÎÏ·ÆÀÂÛºÍËüµÄ¹ØÁªÐÅÏ¢£¬´æ·Åµ½csvÎÄ¼þÖÐ¡£
+## 	åŸºæœ¬åŠŸèƒ½
+è¿™ä¸ªç¨‹åºæ ¹æ®ä½ æä¾›çš„æ¸¸æˆidï¼ŒæŒ‰è¯„è®ºæœ€è¿‘æ›´æ–°æ—¶é—´ï¼Œè‡ªåŠ¨æŠ“å–æ¯æ¡å®Œæ•´çš„æ¸¸æˆè¯„è®ºå’Œå®ƒçš„å…³è”ä¿¡æ¯ï¼Œå­˜æ”¾åˆ°csvæ–‡ä»¶ä¸­ã€‚
 
- - **Ç°ÖÃ×¼±¸£º** Èç¹ûÄã½«csvÎÄ¼þµÄ±£´æÂ·¾¶ÉèÖÃÔÚCÅÌ£¬×îºÃÊÖ¶¯½¨Á¢Â·¾¶£¬·ñÔò¿ÉÄÜ»á³öÏÖpremission dennied£¬×¥È¡µÄÊý¾Ý±£´æ²»³É¹¦
- - **ÅÀ³æÔËÐÐ£º** ×î´ó×¥È¡Ò³ÊýÎª990Ò³£¬ÓÉÓÚtaptapµÄÉèÖÃ£¬µ¥¸öÓÎÏ·ÔÚ990ÒÔºóµÄÆÀÂÛÊý¾ÝÎÞ·¨·ÃÎÊ¡£ÅÀÈ¡¹ý³ÌÖÐ³ö´í£¬ÖØÐÂÔËÐÐ³ÌÐò£¬³ÌÐò»á×Ô¶¯ÔÚ¶ÏµãÎ»ÖÃÐøÅÀ
+ - **å‰ç½®å‡†å¤‡ï¼š** å¦‚æžœä½ å°†csvæ–‡ä»¶çš„ä¿å­˜è·¯å¾„è®¾ç½®åœ¨Cç›˜ï¼Œæœ€å¥½æ‰‹åŠ¨å»ºç«‹è·¯å¾„ï¼Œå¦åˆ™å¯èƒ½ä¼šå‡ºçŽ°premission denniedï¼ŒæŠ“å–çš„æ•°æ®ä¿å­˜ä¸æˆåŠŸ
+ - **çˆ¬è™«è¿è¡Œï¼š** æœ€å¤§æŠ“å–é¡µæ•°ä¸º990é¡µï¼Œç”±äºŽtaptapçš„è®¾ç½®ï¼Œå•ä¸ªæ¸¸æˆåœ¨990ä»¥åŽçš„è¯„è®ºæ•°æ®æ— æ³•è®¿é—®ã€‚çˆ¬å–è¿‡ç¨‹ä¸­å‡ºé”™ï¼Œé‡æ–°è¿è¡Œç¨‹åºï¼Œç¨‹åºä¼šè‡ªåŠ¨åœ¨æ–­ç‚¹ä½ç½®ç»­çˆ¬
 
- - **ÅÀ³æ½áÊø£º** ´ïµ½ÉÏÏÞ£¬³ÌÐò±¨Ò³ÃæÎÞ·¨´ò¿ª£¬Êý¾ÝÒÑÔÚcsvÎÄ¼þÖÐ±£´æ
+ - **çˆ¬è™«ç»“æŸï¼š** è¾¾åˆ°ä¸Šé™ï¼Œç¨‹åºæŠ¥é¡µé¢æ— æ³•æ‰“å¼€ï¼Œæ•°æ®å·²åœ¨csvæ–‡ä»¶ä¸­ä¿å­˜
 
-&emsp;&emsp;ËüÄ¬ÈÏÅÀ¡¶ÔªÆøÆïÊ¿¡·£¨id£º34751£©Õâ¸öÓÎÏ·µÄÆÀÂÛ£¬ÄãÒ²¿ÉÒÔ¸ù¾Ý×Ô¼ºµÄÐèÇó×Ô¶¨Òå¡£¿É²Î¿¼¼¸¸öÍ¬ÀàÓÎÏ·µÄid£º
-|id| ÓÎÏ·Ãû |
-|--|--|
-| 74838 | Ì°À·¶´¿ß2 |
-| 77796 | ÎÒµÄÓÂÕß |
-| 69792 | Òì»¯Ö®µØ |
+&emsp;&emsp;å®ƒé»˜è®¤çˆ¬ã€Šå…ƒæ°”éª‘å£«ã€‹ï¼ˆidï¼š34751ï¼‰è¿™ä¸ªæ¸¸æˆçš„è¯„è®ºï¼Œä½ ä¹Ÿå¯ä»¥æ ¹æ®è‡ªå·±çš„éœ€æ±‚è‡ªå®šä¹‰ã€‚å¯å‚è€ƒå‡ ä¸ªåŒç±»æ¸¸æˆçš„idï¼š
+&emsp;&emsp;&emsp;&emsp;|id| æ¸¸æˆå |
+&emsp;&emsp;&emsp;&emsp;|--|--|
+&emsp;&emsp;&emsp;&emsp;| 74838 | è´ªå©ªæ´žçªŸ2 |
+&emsp;&emsp;&emsp;&emsp;| 77796 | æˆ‘çš„å‹‡è€… |
+&emsp;&emsp;&emsp;&emsp;| 69792 | å¼‚åŒ–ä¹‹åœ° |
 
-&emsp;&emsp;ÉÏÃæÃ»ÓÐÄãÏëÅÀµÄÓÎÏ·? Çë¿´ÏÂÒ»Ìõ
+&emsp;&emsp;ä¸Šé¢æ²¡æœ‰ä½ æƒ³çˆ¬çš„æ¸¸æˆ? è¯·çœ‹ä¸‹ä¸€æ¡
 <hr>
 
-## »ñÈ¡ÓÎÏ·idµÄ·½·¨¡ª¡ªFiddler×¥°ü
-&emsp;&emsp;FiddlerÊÇÒ»¸öhttpÐ­Òéµ÷ÊÔ´úÀí¹¤¾ß£¬¼òµ¥À´Ëµ£¬Ëü³äµ±ÖÐ¼äÈË²¶»ñÄãÕýÔÚä¯ÀÀµÄÍøÒ³½»»»µÄÊý¾ÝÁ÷¡£Ëü×¥°üappÐèÒªÒ»Ð©¶îÍâÅäÖÃ£¬¿ÉÒÔ²Î¿¼[¡¾ÕâÆªÎÄÕÂ¡¿](https://blog.csdn.net/xyz846/article/details/78963245)¡£
+## èŽ·å–æ¸¸æˆidçš„æ–¹æ³•â€”â€”FiddleræŠ“åŒ…
+&emsp;&emsp;Fiddleræ˜¯ä¸€ä¸ªhttpåè®®è°ƒè¯•ä»£ç†å·¥å…·ï¼Œç®€å•æ¥è¯´ï¼Œå®ƒå……å½“ä¸­é—´äººæ•èŽ·ä½ æ­£åœ¨æµè§ˆçš„ç½‘é¡µäº¤æ¢çš„æ•°æ®æµã€‚å®ƒæŠ“åŒ…appéœ€è¦ä¸€äº›é¢å¤–é…ç½®ï¼Œå¯ä»¥å‚è€ƒ[ã€è¿™ç¯‡æ–‡ç« ã€‘](https://blog.csdn.net/xyz846/article/details/78963245)ã€‚
 
-&emsp;&emsp;ÅäÖÃ¾ÍÐ÷ºó£¬×öÒÔÏÂ¼¸²½£º
- - Ê¹ÊÖ»úÓëFiddlerËùÔÚµÄµçÄÔ´¦ÓÚÍ¬Ò»ÍøÂç»·¾³
- - ÓÃÊÖ»ú½øÈëTapTapµÄÈÎÒ»ÓÎÏ·µÄÍæ¼ÒÆÀÂÛÇø
- - ÉèÖÃÏÔÊ¾·½Ê½Îª×îÐÂ
- - ÏÂÀ­ÆÁÄ»
- - ÕÒµ½ÏÂÃæÕâÌõÁ¬½Ó£¬µÃµ½ÓÎÏ·id
-![ÔÚÕâÀï²åÈëÍ¼Æ¬ÃèÊö](https://img-blog.csdnimg.cn/20200323110543653.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTE5MDkwNzc=,size_16,color_FFFFFF,t_70)
+&emsp;&emsp;é…ç½®å°±ç»ªåŽï¼Œåšä»¥ä¸‹å‡ æ­¥ï¼š
+ - ä½¿æ‰‹æœºä¸ŽFiddleræ‰€åœ¨çš„ç”µè„‘å¤„äºŽåŒä¸€ç½‘ç»œçŽ¯å¢ƒ
+ - ç”¨æ‰‹æœºè¿›å…¥TapTapçš„ä»»ä¸€æ¸¸æˆçš„çŽ©å®¶è¯„è®ºåŒº
+ - è®¾ç½®æ˜¾ç¤ºæ–¹å¼ä¸ºæœ€æ–°
+ - ä¸‹æ‹‰å±å¹•
+ - æ‰¾åˆ°ä¸‹é¢è¿™æ¡è¿žæŽ¥ï¼Œå¾—åˆ°æ¸¸æˆid
+![åœ¨è¿™é‡Œæ’å…¥å›¾ç‰‡æè¿°](https://img-blog.csdnimg.cn/20200323110543653.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTE5MDkwNzc=,size_16,color_FFFFFF,t_70)
 <hr>
 
-## ÆäËû¿ÉÄÜ³öÏÖµÄÎÊÌâ
-ÇëÁªÏµÎÒ£¬Ö÷ÒªÊÇFiddlerÅäÖÃ¿ÓÍ¦¶àµÄ£¬Òª¾ßÌåÇé¿ö¾ßÌå·ÖÎö
-¸ÐÐ»ÔÄ¶Á£¡Thanks for reading!
+## å…¶ä»–å¯èƒ½å‡ºçŽ°çš„é—®é¢˜
+è¯·è”ç³»æˆ‘ï¼Œä¸»è¦æ˜¯Fiddleré…ç½®å‘æŒºå¤šçš„ï¼Œè¦å…·ä½“æƒ…å†µå…·ä½“åˆ†æž
+æ„Ÿè°¢é˜…è¯»ï¼Thanks for reading!
