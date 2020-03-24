@@ -109,6 +109,7 @@ confuse_matrix(y_test, pred_y_test)
 
 &emsp;&emsp;模型的ver.2通过爬取同类型游戏评论的方式**扩充数据集**，在此基础上进行后续处理，下图可见，偏斜问题解决了。
 <br/>
+<br/>
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200323180937410.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTE5MDkwNzc=,size_16,color_FFFFFF,t_70)
 ### 文本挖掘预处理
 
