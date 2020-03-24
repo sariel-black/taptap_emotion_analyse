@@ -98,13 +98,13 @@ data['spent'] = data['spent'].replace(0, np.nan)
 <br/>
 &emsp;&emsp;将4-5星的评价看作正面评价，3星及以下的评价看作负面评价，可以看到数据的分布极不均匀，是一个标准的**偏斜类数据**。直接对这样的数据进行建模，模型对负类的敏感度较低。评价这样的模型，需要**在Precision(查准率)**和**Recall(召回率)之间去权衡**。
 <br/>
-&emsp;&emsp;模型的ver.1使用以上数据直接建模，从**混淆矩阵**中可以看到，模型检测负类的表现非常差，只有0.29的准确率。[ver.1踩坑的完整代码](https://github.com/sariel-black/data_space/blob/master/taptap%E8%AF%84%E8%AE%BA%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90/tap%20emotion%20analyse%20-v1.ipynb)
+&emsp;&emsp;模型的ver.1使用以上数据直接建模，计算**混淆矩阵**并计算查准率、召回率、F1值，三个评价指标值都非常低，模型检测负类的表现非常差。[ver.1踩坑的完整代码](https://github.com/sariel-black/data_space/blob/master/taptap%E8%AF%84%E8%AE%BA%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90/tap%20emotion%20analyse%20-v1.ipynb)
 
 ```python
 confuse_matrix(y_test, pred_y_test)
->>>[[1750  117]
->>> [  77   32]]
->>>Precision = 0.94,   Recall = 0.29    F1 = 0.45
+>>>[[ 148  245]
+>>> [  78 1362]]
+>>>Precision = 0.38,   Recall = 0.65    F1 = 0.48
 ```
 
 &emsp;&emsp;模型的ver.2通过爬取同类型游戏评论的方式**扩充数据集**，在此基础上进行后续处理，下图可见，偏斜问题解决了。
@@ -155,6 +155,7 @@ X_train, X_test, y_train, y_test = train_test_split(np.array(X), np.array(Y), te
 ### 建立LSTM模型
 模型的建立思路：
 
+ - **更关注负类的预测表现**：正类标注为0，负类标注为1
  - **引入词向量**：Embedding层
  - **增强模型长期记忆能力**：LSTM层
  - **降低对权重的依赖**：使用Dropout正则化层
@@ -188,12 +189,14 @@ EmotionModel(
 
 ```python
 confuse_matrix(y_test, pred_y_test)
->>>[[1967  640]
- [ 448 2505]]
-Precision = 0.75,   Recall = 0.85    F1 = 0.80
+>>>[[2527  455]
+ [ 618 1960]]
+Precision = 0.85,   Recall = 0.80    F1 = 0.82
 ```
 
-**召回率** = 0.85，说明对负类的预测准确率达到85%，达到了具备实用价值的水平，可喜可贺
+**查准率** = 0.85，说明检测为负的有85%真实为负
+**召回率** = 0.80，说明80%的负类样本被成功检测
+达到了具备实用价值的水平，可喜可贺
 
  #### 泛化能力
  
